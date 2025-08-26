@@ -11,6 +11,10 @@
     {
       "permission": "coupon_write",
       "purpose": "Create and update affiliate codes"
+    },
+    {
+      "permission": "product_read",
+      "purpose": "Retrieve information about products"
     }
   ],
   "connect_permissions": null,
