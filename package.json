@@ -1,0 +1,30 @@
+{
+  "name": "com.creatorgrid.cg-affiliate",
+  "version": "0.0.1",
+  "description": "Test",
+  "private": true,
+  "license": "~~proprietary~~",
+  "dependencies": {
+    "@stripe/ui-extension-sdk": "^9.0.0",
+    "convex": "^1.25.4",
+    "stripe": "^18.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@stripe/ui-extension-tools/eslintrc.ui-extension.js"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint --ext ts,tsx src",
+    "test": "jest"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@stripe/ui-extension-tools": "^0.0.1"
+  }
+}

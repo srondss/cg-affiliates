@@ -1,0 +1,23 @@
+{
+  "id": "com.creatorgrid.affiliate-system",
+  "version": "0.0.24",
+  "name": "CG Affiliates",
+  "icon": "",
+  "permissions": [
+    {
+      "permission": "coupon_read",
+      "purpose": "Retrieve information about affiliate codes"
+    },
+    {
+      "permission": "coupon_write",
+      "purpose": "Create and update affiliate codes"
+    }
+  ],
+  "connect_permissions": null,
+  "allowed_redirect_uris": [
+    "https://96f5c2f2b065.ngrok-free.app/affiliates",
+    "https://creatorgrid.io/affiliates"
+  ],
+  "stripe_api_access_type": "oauth",
+  "distribution_type": "public"
+}
