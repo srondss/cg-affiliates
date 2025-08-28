@@ -1,6 +1,6 @@
 {
   "id": "com.creatorgrid.affiliate-system",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "name": "CG Affiliates",
   "icon": "",
   "permissions": [
@@ -40,6 +40,7 @@
   "connect_permissions": null,
   "allowed_redirect_uris": [
     "https://adjusted-gently-civet.ngrok-free.app/affiliates",
+    "https://lobster-helped-thankfully.ngrok-free.app/affiliates",
     "https://creatorgrid.io/affiliates"
   ],
   "stripe_api_access_type": "oauth",
