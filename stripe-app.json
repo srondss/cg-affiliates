@@ -1,6 +1,6 @@
 {
   "id": "com.creatorgrid.affiliate-system",
-  "version": "0.0.27",
+  "version": "0.0.30",
   "name": "CG Affiliates",
   "icon": "",
   "permissions": [
@@ -23,6 +23,18 @@
     {
       "permission": "product_read",
       "purpose": "Retrieve information about products"
+    },
+    {
+      "permission": "charge_read",
+      "purpose": "Retrieve information about charges"
+    },
+    {
+      "permission": "checkout_session_read",
+      "purpose": "Retrieve information about checkout sessions"
+    },
+    {
+      "permission": "plan_read",
+      "purpose": "Retrieve information about subscription plans"
     }
   ],
   "connect_permissions": null,
