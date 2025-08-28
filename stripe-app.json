@@ -1,6 +1,6 @@
 {
   "id": "com.creatorgrid.affiliate-system",
-  "version": "0.0.24",
+  "version": "0.0.27",
   "name": "CG Affiliates",
   "icon": "",
   "permissions": [
@@ -13,13 +13,21 @@
       "purpose": "Create and update affiliate codes"
     },
     {
+      "permission": "promotion_code_read",
+      "purpose": "Retrieve information about promotion codes"
+    },
+    {
+      "permission": "promotion_code_write",
+      "purpose": "Create and update promotion codes"
+    },
+    {
       "permission": "product_read",
       "purpose": "Retrieve information about products"
     }
   ],
   "connect_permissions": null,
   "allowed_redirect_uris": [
-    "https://96f5c2f2b065.ngrok-free.app/affiliates",
+    "https://adjusted-gently-civet.ngrok-free.app/affiliates",
     "https://creatorgrid.io/affiliates"
   ],
   "stripe_api_access_type": "oauth",
